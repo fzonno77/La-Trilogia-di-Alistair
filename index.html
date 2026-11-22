@@ -41,6 +41,47 @@
 .author-portrait{width:176px;height:176px;object-fit:cover;border-radius:50%;display:block;margin:0 auto 24px;border:5px solid #fff;box-shadow:0 10px 28px rgba(18,45,78,.18)}
 .author-inner{padding-top:12px}
 
+
+.trailer-section {
+  background: #2C1E11;
+  padding: 55px 20px;
+  text-align: center;
+  color: #FAF6EE;
+}
+
+.trailer-container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.trailer-container h2 {
+  color: #F1B24A;
+  font-size: clamp(24px, 4vw, 36px);
+  margin-bottom: 15px;
+}
+
+.trailer-container p {
+  font-size: 17px;
+  margin-bottom: 28px;
+}
+
+.trailer-video {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 14px;
+  box-shadow: 0 8px 28px rgba(0,0,0,0.35);
+}
+
+.trailer-video iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 </style>
 <meta content="index,follow" name="robots"/></head>
 <body>
@@ -70,6 +111,24 @@
 </div>
 </div>
 </section>
+
+<section class="trailer-section">
+  <div class="trailer-container">
+    <h2>La magia del Natale incontra la Trilogia di Alistair</h2>
+    <p>Tre libri, un'unica grande avventura. Un regalo speciale da mettere sotto l'albero.</p>
+
+    <div class="trailer-video">
+      <iframe
+        src="https://www.youtube.com/embed/wtXvKT3FvDs"
+        title="Trailer natalizio della Trilogia di Alistair"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</section>
+
 <section class="arc" id="trilogia">
 <div class="wrap intro">
 <div class="kicker">Un'unica storia, tre momenti della vita</div>
